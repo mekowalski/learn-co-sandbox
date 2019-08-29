@@ -6,3 +6,6 @@ eg: Painting a house
 - Telling painter EXACTLY what to do
 
 Declarative: 
+eg: Painting a house
+- 'Will you please paint the exterior of the house this color?'
+- Painter would know what to do without EXACT step by step.  They know how to do the job
