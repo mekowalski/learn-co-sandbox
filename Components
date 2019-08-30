@@ -14,9 +14,22 @@ Step 1: Write Components
     }
   }
   
-  -New Class: Songs, is declared
-  -Class extends React's Component class, providing built in methods/attributes
-  -A render() method is defined, which returns what is explicitly provided, onto DOM
+-New Class: Songs, is declared
+-Class extends React's Component class, providing built in methods/attributes
+-A render() method is defined, which returns what is explicitly provided, onto DOM
+
+  class SongDetail extends React.Component {
+    render() {
+      return (
+        <div>
+          <p>Artist: Shaboozey</p>
+          <p>Artist: Raleigh Ritchie</p>
+          <p>Artist: Vincent Augustus</p>
+        </div>
+      )
+    }
+  }
+
   
 
 Step 2: Use Components
