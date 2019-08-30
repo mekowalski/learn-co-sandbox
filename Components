@@ -2,5 +2,21 @@ Components: modular, functional pieces that are reusable and present the code
 -Help keep code organized and predictable, describing what should be rendered to DOM
 
 Step 1: Write Components
+  class Songs extends React.Component {
+    render() {
+      return (
+        <div>
+          <h1>Winning Streak</h1>
+          <h1>Lonely Summer</h1>
+          <h1>Inner Love</h1>
+        </div>
+      )
+    }
+  }
+  
+  -New Class: Songs, is declared
+  -Class extends React's Component class, providing built in methods/attributes
+  -A render() method is defined, which returns what is explicitly provided, onto DOM
+  
 
 Step 2: Use Components
