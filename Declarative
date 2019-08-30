@@ -11,8 +11,5 @@ eg: Painting a house
 - Painter would know what to do without EXACT step by step.  They know how to do the job
 
 Declarative allows focus on what React application should look lik, opposed to concerns of manually updating DOM
-<<<<<<< HEAD
 It does the heavy lifting
-=======
-It does the heavy lifting
->>>>>>> 6397949f2be06290632510766935ed765dc593fc
+
