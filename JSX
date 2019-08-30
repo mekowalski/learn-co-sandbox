@@ -1,3 +1,12 @@
 JSX: Not a string, it is the return value of th render() method
 -Every component used, needs a render() methos to return valid JSX
 -Entire return statement is wrapped in 1 parentheses()
+
+***NOTE ON ARROW FUNCTIONS***
+eg: aMethod = () => new Method().toString()
+
+-Using an arrow function with its respective syntax IMPLICITLY BINDS the method to the class in which it's declared.
+-If a function is called in a class OUTSIDE its origin class, without the arrow function syntax, the method will
+ need to be EXPLICITLY BIND(ED) to the class it's originally from
+ 
+ eg: this.aMethod().bind(this)
