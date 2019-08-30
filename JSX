@@ -14,6 +14,7 @@ eg: aMethod = () => new Method().toString()
 JSX: Cannot include all JavaScript Statements
 -It is an extension of JavaScript, it is considered declarative
  
+<<<<<<< HEAD
 -A Component must return 1 JSX element
 -Without an element wrapped in a returned JSX within a Component, there will be an error
   ***with some exceptions***
@@ -21,3 +22,6 @@ JSX: Cannot include all JavaScript Statements
 -Ultimately all JSX code gets compiled down to a standard JavaScript that will turn into original syntax
   eg: React.createElement
   
+=======
+-A Component must return 1 JSX element
+>>>>>>> b9e318caa705a36176ffea18622d54c44cbae3db
