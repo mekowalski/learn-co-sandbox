@@ -33,3 +33,16 @@ Step 1: Write Components
   
 
 Step 2: Use Components
+-To present the Components above, another main Component will render them
+-Every React application has top-level Component(s), most of the time, simply called App
+
+  class App extends React.Component {
+    render() {
+      return (
+        <div>
+          <Song />
+          <SongDetail />
+        </div>
+      )
+    }
+  }
