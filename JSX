@@ -1,0 +1,3 @@
+JSX: Not a string, it is the return value of th render() method
+-Every component used, needs a render() methos to return valid JSX
+-Entire return statement is wrapped in 1 parentheses()

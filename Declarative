@@ -12,4 +12,3 @@ eg: Painting a house
 
 Declarative allows focus on what React application should look lik, opposed to concerns of manually updating DOM
 It does the heavy lifting
-
