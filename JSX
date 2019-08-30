@@ -10,3 +10,14 @@ eg: aMethod = () => new Method().toString()
  need to be EXPLICITLY BIND(ED) to the class it's originally from
  
  eg: this.aMethod().bind(this)
+ 
+JSX: Cannot include all JavaScript Statements
+-It is an extension of JavaScript, it is considered declarative
+ 
+-A Component must return 1 JSX element
+-Without an element wrapped in a returned JSX within a Component, there will be an error
+  ***with some exceptions***
+  
+-Ultimately all JSX code gets compiled down to a standard JavaScript that will turn into original syntax
+  eg: React.createElement
+  
