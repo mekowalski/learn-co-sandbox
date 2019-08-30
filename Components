@@ -1,0 +1,6 @@
+Components: modular, functional pieces that are reusable and present the code
+-Help keep code organized and predictable, describing what should be rendered to DOM
+
+Step 1: Write Components
+
+Step 2: Use Components
