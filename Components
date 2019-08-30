@@ -46,3 +46,8 @@ Step 2: Use Components
       )
     }
   }
+  
+-JSX(lines 43 & 44) is React's syntax of using HTML and JavaScript at the same time
+-App Component will now render, onto DOM, the content of both Song and SongDetail Components
+-App is the Parent Component and Song/SongDetail are the Children Components
+  
